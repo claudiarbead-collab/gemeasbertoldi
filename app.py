@@ -1,1 +1,1 @@
-genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+genai.configure(api_key=st.secrets["cliente-gen-lang-0853563768"])

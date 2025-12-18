@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # 1. Configuração da API usando o Segredo que você criou no Streamlit
-# Certifique-se que lá nos Secrets você escreveu exatamente: GOOGLE_API_KEY = "gen-lang-client-0174469309"
+# Certifique-se que lá nos Secrets você escreveu exatamente: GOOGLE_API_KEY = "AIzaSyB7f_9kHb6m4bVQFZvZHdw4g1ET0j280S8"
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 # 2. Configuração do seu "App" (O código que você quer esconder)

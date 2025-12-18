@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # 1. Configuração da API - Ele vai buscar o valor que você salvou nos Secrets do Streamlit
-genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+genai.configure(api_key=st.secrets["AIzaSyB7f_9kHb6m4bVQFZvZHdw4g1ET0j280S8"])
 
 # 2. Configuração do seu "App"
 # SUBSTITUA O TEXTO ABAIXO PELO SEU PROMPT REAL DO AI STUDIO
